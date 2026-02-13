@@ -54,7 +54,7 @@ PostgreSQL автоматически:
 
 Host: `localhost`  
 Port: `5433`  
-Database: `lms` (или указанное в docker-compose)  
+Database: `lms` 
 User: `postgres`  
 Password: `postgres`
 (проверено на dbeaver, pgadmin 4)
@@ -96,6 +96,7 @@ docker exec -it lms_db psql -U postgres -d test_bd -f performance_test.sql
 - Docker Compose
 
 ---
+
 
 
 
