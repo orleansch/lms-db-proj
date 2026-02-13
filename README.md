@@ -38,7 +38,7 @@ DEFAULT значения
 ---
 
 ## Запуск
-git clone https://github.com/orleansch/lms-database.git
+git clone https://github.com/orleansch/lms-db-proj
 cd lms-database
 docker compose up -d(запуск контейнера)
 
@@ -96,6 +96,7 @@ docker exec -it lms_db psql -U postgres -d test_bd -f performance_test.sql
 - Docker Compose
 
 ---
+
 
 
 
